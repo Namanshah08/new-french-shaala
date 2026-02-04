@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn French - FrenchShaala</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header class="header">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      <img src="images/frenchshaala logo.jpg" alt="FrenchShaala logo" class="logo" />
+      <h1>FrenchShaala</h1>
+    </a>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav class="nav" id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="learn-french.html" class="active">Learn French</a>
+      <a href="enroll.html" class="cta-outline">Enroll Yourself</a>
+      <a href="contact.html" class="cta">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="section">
+    <div class="section-head">
+      <h3>Learn French</h3>
+      <p>Explore our learning options.</p>
+    </div>
+
+    <div class="cards">
+      <div class="card" id="basic">
+        <h4>Basic French</h4>
+        <p>Perfect for beginners. Learn vocabulary, grammar, pronunciation, and daily conversation.</p>
+      </div>
+
+      <div class="card" id="school">
+        <h4>School Syllabus</h4>
+        <p>Special support for school students with exam-focused preparation and guidance.</p>
+      </div>
+
+      <div class="card" id="levels">
+        <h4>French Levels</h4>
+        <p>Structured learning for levels with progress tracking and confidence-building practice.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="inner footer-inner">
+    <div>
+      <strong>FrenchShaala</strong>
+      <div class="muted">Learn · Discover · Connect</div>
+    </div>
+    <div class="muted">© <span id="y2"></span> FrenchShaala</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.getElementById("y2").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

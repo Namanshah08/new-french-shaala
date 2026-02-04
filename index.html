@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FrenchShaala</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header class="header">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      <img src="images/frenchshaala logo.jpg" alt="FrenchShaala logo" class="logo" />
+      <h1>FrenchShaala</h1>
+    </a>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav class="nav" id="navMenu">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="learn-french.html">Learn French</a>
+      <a href="enroll.html" class="cta-outline">Enroll Yourself</a>
+      <a href="contact.html" class="cta">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h2>Learn French with friendly tutors — live & recorded</h2>
+        <p>
+          Join interactive live classes, study self-paced recorded courses, and learn French confidently with a structured approach.
+        </p>
+
+        <div class="hero-actions">
+          <a href="learn-french.html" class="btn">View Programs</a>
+          <a href="enroll.html" class="btn btn-light">Enroll Now</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/frenchshaala logo.jpg" alt="FrenchShaala" />
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE OFFER -->
+  <section class="section">
+    <div class="section-head">
+      <h3>What We Offer</h3>
+      <p>Choose the learning path that fits your goals.</p>
+    </div>
+
+    <div class="cards">
+      <a class="card" href="learn-french.html#basic">
+        <h4>Basic French</h4>
+        <p>Start from scratch and build strong fundamentals with easy explanations.</p>
+      </a>
+
+      <a class="card" href="learn-french.html#school">
+        <h4>School Syllabus</h4>
+        <p>Support for school students with syllabus-based learning & exam preparation.</p>
+      </a>
+
+      <a class="card" href="learn-french.html#levels">
+        <h4>French Levels</h4>
+        <p>Learn French level-wise with structured modules and progress tracking.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section">
+    <div class="section-head">
+      <h3>Testimonials</h3>
+      <p>What our students say about FrenchShaala 💙</p>
+    </div>
+
+    <div class="testimonial-grid">
+
+      <div class="testimonial-card">
+        <img src="images/student1.jpg" alt="Student photo" class="student-photo" />
+        <p>
+          “Riddhi miss is very good. She explains the concepts very politely. She encourages and builds confidence.
+          Her teaching methods were well-structured. Overall learning French in her class was enjoyable.”
+        </p>
+        <h5>Student</h5>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="images/student2.jpg" alt="Student photo" class="student-photo" />
+        <p>
+          “Madam Riddhi makes French learning easy and enjoyable with her clear explanations, smart tricks,
+          and well-prepared notes. She truly cares about our progress and encourages us to speak French confidently.”
+        </p>
+        <h5>Student</h5>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="images/student3.jpg" alt="Student photo" class="student-photo" />
+        <p>
+          “I was a student from 8th to 10th and also part of the first batch. It has been a beautiful 3-year journey.
+          Your way of explaining made French easy, interesting, and fun. Thank you so much for everything!”
+        </p>
+        <h5>Student</h5>
+      </div>
+
+    </div>
+
+    <div style="text-align:center; margin-top: 18px;">
+      <a href="enroll.html" class="btn">Join FrenchShaala</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="inner footer-inner">
+    <div>
+      <strong>FrenchShaala</strong>
+      <div class="muted">Learn · Discover · Connect</div>
+    </div>
+    <div class="muted">© <span id="y2"></span> FrenchShaala</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.getElementById("y2").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

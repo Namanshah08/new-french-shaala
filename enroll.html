@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enroll Yourself - FrenchShaala</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header class="header">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      <img src="images/frenchshaala logo.jpg" alt="FrenchShaala logo" class="logo" />
+      <h1>FrenchShaala</h1>
+    </a>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav class="nav" id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="learn-french.html">Learn French</a>
+      <a href="enroll.html" class="active cta-outline">Enroll Yourself</a>
+      <a href="contact.html" class="cta">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+<main class="section">
+  <div class="section-head">
+    <h3>Enroll Yourself</h3>
+    <p>Fill this form and we will contact you.</p>
+  </div>
+
+  <div style="width:min(600px,92%); margin:0 auto;">
+    
+    <!-- FormSubmit method -->
+    <form action="https://formsubmit.co/frenchshaala29@gmail.com" method="POST" class="card" style="padding:20px;">
+      
+      <!-- No captcha -->
+      <input type="hidden" name="_captcha" value="false">
+
+      <!-- Redirect after submit -->
+      <input type="hidden" name="_next" value="index.html">
+
+      <label style="font-weight:600;">Student Name</label>
+      <input name="Student Name" required placeholder="Enter your full name"
+        style="width:100%; padding:12px; margin:8px 0 14px; border:1px solid #e5e7eb; border-radius:12px;" />
+
+      <label style="font-weight:600;">Phone Number</label>
+      <input name="Phone Number" required placeholder="Enter your number"
+        style="width:100%; padding:12px; margin:8px 0 14px; border:1px solid #e5e7eb; border-radius:12px;" />
+
+      <label style="font-weight:600;">Email ID</label>
+      <input type="email" name="Email" required placeholder="Enter your email"
+        style="width:100%; padding:12px; margin:8px 0 14px; border:1px solid #e5e7eb; border-radius:12px;" />
+
+      <button type="submit" class="btn" style="width:100%; border:none; cursor:pointer;">
+        Submit Enrollment
+      </button>
+    </form>
+
+    <p style="text-align:center; margin-top:12px; color:#64748b; font-size:13px;">
+      After submitting, the details will come to <strong>frenchshaala29@gmail.com</strong>
+    </p>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="inner footer-inner">
+    <div>
+      <strong>FrenchShaala</strong>
+      <div class="muted">Learn · Discover · Connect</div>
+    </div>
+    <div class="muted">© <span id="y2"></span> FrenchShaala</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.getElementById("y2").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
+
